@@ -136,6 +136,11 @@ class Citybuild extends PluginBase implements Listener
                 $sender->sendMessage($this->prefix . TF::GREEN . "Du hast nun wieder " . TF::GOLD . "volle Herzen");
             }
         }
+        if ($cmd->getName() === "info") {
+            if ($sender->hasPermission("info.use")) {
+                $sender->sendMessage($this->prefix . TF::RED . "No Information " . TF::DARK_RED . "Available!");
+            }
+        }
 
         if ($cmd->getName() === "feed") {
             if ($sender->hasPermission("feed.use")) {
