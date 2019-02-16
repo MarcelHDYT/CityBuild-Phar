@@ -1,0 +1,42 @@
+name: CityBuild-Dev
+main: MarcelHDYT\Citybuild
+api: [3.6.0, 3.6.1, 3.6.2, 3.6.3, 3.6.4, 3.6.5, 3.6.6, 3.6.7, 3.6.8]
+version: 1.0-Beta
+author: MarcelHDYT
+commands:
+  fly:
+    aliases: ["fliegen"]
+    permission: "fly.use"
+  heal:
+    aliases: ["heilen"]
+    permission: "heal.use"
+  feed:
+    aliases: ["essen"]
+    permission: "feed.use"
+  size:
+    aliases: ["groesse"]
+    permission: "size.use"
+  repair:
+    aliases: [""]
+    permission: "repair.use"
+  repairall:
+    aliases: [""]
+    permission: "repairall.use"
+  clear:
+    aliases: [""]
+    permission: "clear.use"
+permissions:
+  fly.use:
+    default: op
+  heal.use:
+    default: op
+  feed.use:
+    default: op
+  size.use:
+    default: op
+  repair.use:
+    default: op
+  repairall.use:
+    default: op
+  clear.use:
+    default: op
