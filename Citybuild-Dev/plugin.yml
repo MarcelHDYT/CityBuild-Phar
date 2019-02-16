@@ -25,6 +25,10 @@ commands:
   clear:
     aliases: [""]
     permission: "clear.use"
+  info:
+    aliases: [""]
+    permission: "info.use"
+  
 permissions:
   fly.use:
     default: op
@@ -39,4 +43,6 @@ permissions:
   repairall.use:
     default: op
   clear.use:
+    default: op
+  info.use:
     default: op
